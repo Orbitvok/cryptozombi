@@ -1,5 +1,7 @@
 **Шаглунов Дмитрий Васильевич**
+
 Результат тестов:
+
 <img width="798" height="222" alt="sleekshot" src="https://github.com/user-attachments/assets/6f760021-078a-4e23-81f7-6091fefce831" />
 
 *Почему вычисление ДНК не является безопасной случайностью?*
