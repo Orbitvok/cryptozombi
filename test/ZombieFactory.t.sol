@@ -19,7 +19,7 @@ contract ZombieFactoryTest is Test {
         vm.prank(alice);
         uint256 id = factory.createZombie("AliceZombie");
 
-        (string memory name, , uint256 createdAt) = factory.getZombie(id);
+        (string memory name,, uint256 createdAt) = factory.getZombie(id);
         assertEq(id, 0);
         assertEq(name, "AliceZombie");
         assertEq(factory.zombieToOwner(id), alice);
@@ -64,7 +64,7 @@ contract ZombieFactoryTest is Test {
         vm.prank(alice);
         uint256 id = factory.createZombie("AliceZombie");
 
-        (, uint256 dna, ) = factory.getZombie(id);
+        (, uint256 dna,) = factory.getZombie(id);
         assertLt(dna, factory.DNA_MODULUS());
     }
 }
